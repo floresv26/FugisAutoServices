@@ -1,15 +1,51 @@
 body {
 	background-color: #37474f;
+	padding-bottom: 30px;
+	font-size: .95em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #00b0ff;
 }
 
-p, label, li {
+p, label{
 	color: white;
 	opacity: .59;
 }
+
+h2 {
+	margin-top: 30px;
+}
+
+h4 {
+	padding-top: 15px;
+}
+
+h6 {
+	padding-top: 10px;
+}
+
+.btn-primary {
+	background-color: #ff9100;
+	border: #ff9100;
+	margin-top: 10px; 
+}
+
+#home {
+	padding-top: 50px;
+}
+
+#services li {
+	color: white;
+	opacity: .59;	
+}
+
+.navbar-toggler {
+	padding: 3px;
+}
+
+
+
 
 /* Responsive Breakpoints */
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -23,9 +59,15 @@ p, label, li {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	#map {
-	width: 100%;
-	height: 300px;
-}
+		width: 100%;
+		height: 300px;
+	}
+
+	#slideshowCarouselIndicators {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
